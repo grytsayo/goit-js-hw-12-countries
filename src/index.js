@@ -1,8 +1,8 @@
 import './sass/main.scss';
 import './js/fetchCountries';
 
-import { alert } from '../node_modules/@pnotify/core/dist/PNotify.js';
+import { error } from '../node_modules/@pnotify/core/dist/PNotify.js';
 
-alert({
-    text: 'And so what?'
-  });
+error({
+    text: 'Too many matches found!'
+      });
